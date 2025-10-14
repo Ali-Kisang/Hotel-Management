@@ -1,0 +1,19 @@
+# NetBeans project files
+nbproject/private/
+nbproject/backup/
+nbbuild/
+dist/
+build/
+*.war
+
+# Database (sensitive - don't commit)
+*.accdb
+*.mdb
+
+# Logs and temps
+*.log
+*.tmp
+.DS_Store
+
+# OS generated
+Thumbs.db
