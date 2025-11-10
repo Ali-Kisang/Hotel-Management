@@ -12,8 +12,8 @@ A Java Web Application demonstrating JDBC integration with Microsoft Access (.ac
 - **JDBC Driver:** UCanAccess 5.1.3 (pure Java, handles quirks like locking)
 - **JDK:** OpenJDK 21.0.5 LTS
 ## Folder Structure
-### Pushing Your Hotel Management System to GitHub
-Congratulations on completing the project! Below is a step-by-step guide to initialize Git, create a repository on GitHub, and push your code. I'll assume you have Git installed (if not, download from https://git-scm.com/downloads). Also, I'll provide a ready-to-use `README.md` file content—copy it into a new file in your project root.
+### Hotel Management System to GitHub
+ Below is a step-by-step guide to initialize Git, create a repository on GitHub.
 #### Step 1: Prepare Your Project for Git
 1. **Open Command Prompt/Terminal in Project Root:**
    - Navigate to your project folder: `cd C:\Users\user\OneDrive\Documents\NetBeansProjects\HotelManagement` (adjust path as needed).
