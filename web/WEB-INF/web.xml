@@ -12,6 +12,10 @@
         <servlet-name>AvailableRoomsServlet</servlet-name>
         <servlet-class>AvailableRoomsServlet</servlet-class>
     </servlet>
+    **<servlet>
+        <servlet-name>AdvancedRoomListServlet</servlet-name>
+        <servlet-class>AdvancedRoomListServlet</servlet-class>
+    </servlet>**
     <servlet-mapping>
         <servlet-name>ConnectionTestServlet</servlet-name>
         <url-pattern>/test</url-pattern>
@@ -24,4 +28,8 @@
         <servlet-name>AvailableRoomsServlet</servlet-name>
         <url-pattern>/available</url-pattern>
     </servlet-mapping>
+    **<servlet-mapping>
+        <servlet-name>AdvancedRoomListServlet</servlet-name>
+        <url-pattern>/advancedRoomList</url-pattern>
+    </servlet-mapping>**
 </web-app>
