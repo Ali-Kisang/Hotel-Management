@@ -120,6 +120,6 @@ MIT License—use/modify freely for educational purposes.
 
 ---
 
-*Built with ❤️ for [Course Name], November 2025. Questions? @AliKisang.*  
+*Built with ❤️ for [Software Development], November 2025.*  
 
-*(Copy-paste this to README.md—add your GitHub link/screenshots. Done! 🚀)*
+*(Advanced Java Programming! 🚀)*
