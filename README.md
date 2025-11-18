@@ -1,7 +1,6 @@
 # Hotel Management System: Advanced Web Demo
 
-![Hotel Room Preview](https://via.placeholder.com/800x400/4A90E2/white?text=Hotel+Management+System)  
-*(Placeholder: Replace with a screenshot of your servlet table for GitHub flair.)*
+
 
 ## Overview
 This is a comprehensive Java-based web application demonstrating key concepts from Weeks 10–13 of the course: Java I/O, JDBC database operations with UCanAccess for Microsoft Access, Jakarta Servlets for dynamic web content, java.net for networking (URL/URLConnection), and multimedia handling (ImageIO/ImageIcon in Swing). Built as a mini-capstone for hotel room management, it integrates:
