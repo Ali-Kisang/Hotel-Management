@@ -1,21 +1,27 @@
-/* Hotel Management System Styles */
+/* Hotel Management System Styles - Enhanced for Week 13 Project */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
     color: #333;
+    line-height: 1.6;
 }
-h1, h2 {
+h1, h2, h3 {
     color: #2c3e50;
     text-align: center;
 }
+h1 { font-size: 2.5em; margin-bottom: 10px; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.5em; border-bottom: 2px solid #3498db; padding-bottom: 5px; }
 table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
     background-color: white;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
 }
 th, td {
     border: 1px solid #ddd;
@@ -25,12 +31,46 @@ th, td {
 th {
     background-color: #3498db;
     color: white;
+    font-weight: bold;
 }
 tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 tr:hover {
     background-color: #e3f2fd;
+    transition: background-color 0.3s ease;
+}
+img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+.price {
+    font-weight: bold;
+    color: #27ae60;  /* Green for prices */
+    text-align: right;
+}
+.desc {
+    max-width: 200px;
+    word-wrap: break-word;
+    font-style: italic;
+    color: #555;
+}
+.section {
+    margin: 20px 0;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+}
+pre {
+    background: #f5f5f5;
+    padding: 10px;
+    border-radius: 4px;
+    overflow: auto;
+    font-family: monospace;
+    white-space: pre-wrap;
 }
 ul {
     list-style-type: none;
@@ -38,26 +78,31 @@ ul {
 }
 ul li {
     margin: 10px 0;
+    padding: 10px;
+    background: #ecf0f1;
+    border-radius: 4px;
 }
 a {
     color: #3498db;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease;
 }
-a:hover {
+a:hover, a:focus {
+    color: #2980b9;
     text-decoration: underline;
+    outline: 2px solid #3498db;
+}
+.error {
+    color: #e74c3c;
+    background: #fdf2f2;
+    padding: 10px;
+    border-radius: 4px;
+    border-left: 4px solid #e74c3c;
 }
 @media (max-width: 600px) {
-    table, th, td {
-        font-size: 14px;
-    }
+    body { padding: 10px; }
+    table, th, td { font-size: 14px; padding: 8px; }
+    img { max-width: 80px; }
+    .desc { max-width: 150px; }
 }
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
-*/
-/* 
-    Created on : Oct 14, 2025, 1:07:58 AM
-    Author     : user
-*/
-
